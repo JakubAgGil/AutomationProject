@@ -46,7 +46,7 @@ namespace AutomationProject.TestCases.GenericShop
                 .GoToCheckout()
                 .EnterFirstName(firstName)
                 .EnterLastName(lastName)
-                //.EnterCountry(userCountry)
+                .EnterCountry(userCountry)
                 .EnterAddress(userAddress)
                 .EnterPostCode(userPostCode)
                 .EnterCity(userCity)
